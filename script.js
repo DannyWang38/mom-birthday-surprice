@@ -55,10 +55,12 @@ function handleClick(e) {
 
 function endGame(draw) {
     if (draw) {
-        winningMessageTextElement.innerText = `平手!`;
+        winningMessageTextElement.innerText = `平手! \n 柏翰愛玩手機 \n 😏😏😏😏`;
     } else {
-        winningMessageTextElement.innerText = `${circleTurn ? "O" : "X"} 勝利! \n 媽媽生日快樂唷!`;
-    }
+    // winningMessageTextElement.innerText = `${circleTurn ? "O" : "X"} 勝利!\n 媽媽生日快樂唷!`;
+    winningMessageTextElement.innerText = `媽媽生日快樂唷!🎂 \n 我愛你💓💓💓`;
+
+}
     winningMessageElement.classList.add("show");
 }
 
