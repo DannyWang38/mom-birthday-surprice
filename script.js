@@ -21,8 +21,9 @@ let circleTurn;
 
 startGame();
 restartButton.addEventListener("click", startGame);
-window.alert(window.innerWidth)
-window.alert(window.innerHeight)
+window.alert(window.screen.availHeight)
+window.alert(window.screen.availWidth)
+
 function startGame() {
     circleTurn = false;
     cellElements.forEach(cell => {
@@ -59,7 +60,7 @@ function endGame(draw) {
         winningMessageTextElement.innerText = `平手! \n 柏翰愛玩手機 \n 😏😏😏😏`;
     } else {
     // winningMessageTextElement.innerText = `${circleTurn ? "O" : "X"} 勝利!\n 媽媽生日快樂唷!`;
-    winningMessageTextElement.innerText = `媽媽生日快樂唷!🎂 \n 我愛你💓💓💓`;
+    winningMessageTextElement.innerText = `媽媽\n生日快樂唷!🎂 \n 我愛你\n💓💓💓`;
 
 }
     winningMessageElement.classList.add("show");
