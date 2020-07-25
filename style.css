@@ -159,9 +159,9 @@
 
     }
     h1{
-        letter-spacing: 20px;
+        letter-spacing: 15px;
         text-align: center;
         position: absolute;
-        left: calc(50% - 109px);
+        left: calc(50% - 107px);
         top: 10%;
     }
